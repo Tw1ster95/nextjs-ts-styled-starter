@@ -1,14 +1,9 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import styled from 'styled-components';
-
-const Heading = styled.h1`
-  color: red;
-`;
 
 const AboutPage = () => (
   <Layout title="About | Next.js + TypeScript Example">
-    <Heading>About</Heading>
+    <h1>About</h1>
     <p>This is the about page</p>
     <p>
       <Link href="/">
